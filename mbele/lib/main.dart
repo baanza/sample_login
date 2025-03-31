@@ -67,6 +67,7 @@ class _HomePageState extends State<HomePage> {
   void dispose() {
     emailcontroller.dispose();
     passcontroller.dispose();
+    usercontroller.dispose();
     super.dispose();
   }
 
